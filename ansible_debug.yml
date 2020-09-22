@@ -1,0 +1,12 @@
+---
+- name: print playbook and include vars created by TF
+  gather_facts: no
+  hosts: localhost
+  vars_files:
+    - tf_to_ansible_vars.yml
+    
+  tasks:
+    
+    - name: print playbook vars
+      debug:
+        msg: '{{tf_example_variable}}'
