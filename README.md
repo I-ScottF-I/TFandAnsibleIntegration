@@ -1,4 +1,4 @@
-Quick example showing a couple of ways to pass TF vars into
+Quick example showing a couple of ways to pass TF vars into ansible
 
 The playbooks and main.tf dont do anything apart from create a file on the localhost.
 
